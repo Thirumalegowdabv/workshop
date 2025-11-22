@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Simple Quiz Application</h2>
+
+    <div class="question">
+        <p>1. What does HTML stand for?</p>
+        <label><input type="radio" name="q1" value="wrong"> Home Tool Markup Language</label>
+        <label><input type="radio" name="q1" value="correct"> HyperText Markup Language</label>
+        <label><input type="radio" name="q1" value="wrong"> Hyperlinks Text Making Language</label>
+    </div>
+
+    <div class="question">
+        <p>2. Which CSS property is used to change text color?</p>
+        <label><input type="radio" name="q2" value="correct"> color</label>
+        <label><input type="radio" name="q2" value="wrong"> text-color</label>
+        <label><input type="radio" name="q2" value="wrong"> font-color</label>
+    </div>
+
+    <div class="question">
+        <p>3. Which keyword is used to declare a variable in JavaScript?</p>
+        <label><input type="radio" name="q3" value="wrong"> var</label>
+        <label><input type="radio" name="q3" value="correct"> let</label>
+        <label><input type="radio" name="q3" value="wrong"> const</label>
+    </div>
+
+    <div class="question">
+        <p>4. Which tag is used to include an external JavaScript file?</p>
+        <label><input type="radio" name="q4" value="correct"> &lt;script src="app.js"&gt;</label>
+        <label><input type="radio" name="q4" value="wrong"> &lt;link src="app.js"&gt;</label>
+        <label><input type="radio" name="q4" value="wrong"> &lt;style src="app.js"&gt;</label>
+    </div>
+
+    <button id="submitBtn">Submit</button>
+    <button id="resetBtn">Reset</button>
+
+    <p id="result"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
